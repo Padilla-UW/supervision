@@ -108,9 +108,9 @@ const visitas = (() => {
   });
 
   document.addEventListener("DOMContentLoaded", async (event) => {
-    console.log(userType);
+    const btnShowAgreVisita = document.querySelector("#contShowAgreVisita");
     if (userType == "admin") {
-      btnAgreVisita.disabled = true;
+      btnShowAgreVisita.style.display = "none";
     }
 
     const filtroUsuarioVisitas = document.querySelector(

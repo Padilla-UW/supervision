@@ -9,7 +9,7 @@ if (empty($_SESSION)) {
 
 <div class="container">
     <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 align-items-end">
-        <div class="col">
+        <div class="col" id="contShowAgreVisita">
             <div class="mb-3 d-grid ">
                 <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modalAgreVisita">Agregar visita</button>
             </div>
