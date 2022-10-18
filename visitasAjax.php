@@ -75,7 +75,7 @@ if ($action == 'guardarVisita') {
                     <td>" . $r['hora'] . "</td>
                     <td>" . $r['tienda'] . "</td><td>";
 
-        $tbl .= ($userType == 'admin') ? "<button type='button' onclick ='" . 'visitas.mostrarUbicacion(this)' . "' data-id='" . $idVisita . "' class='btn btn-outline-info verUbicacion'>Info</button>" : '';
+        $tbl .= ($userType == 'admin') ? "<button type='button' onclick ='" . 'visitas.mostrarUbicacion(this)' . "' data-id='" . $idVisita . "' class='btn btn-outline-info verUbicacion'>Ubicación</button>" : '';
         $tbl .=    "</td>
                 </tr>";
     }

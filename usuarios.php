@@ -36,7 +36,7 @@ if ($userType != 'admin') {
 
 <!-- Modal agregar usuario -->
 <div class="modal fade" id="modalAgreUsuario" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog ">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Agregar usuario</h1>
@@ -85,7 +85,7 @@ if ($userType != 'admin') {
 
 <!-- Modal Editar usuario -->
 <div class="modal fade" id="modalEditUsuario" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog ">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Editar usuario</h1>
@@ -128,7 +128,7 @@ if ($userType != 'admin') {
 
 <!-- Modal Editar contraseña -->
 <div class="modal fade" id="modalEditPassword" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog ">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Editar contraseña</h1>
