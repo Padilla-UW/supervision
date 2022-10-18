@@ -1,7 +1,7 @@
 # supervision
+
 supervision
 
-
 '''
-que onda
+Sistema para ver las ubicaciones de las visitas de los supervisores
 '''
