@@ -46,7 +46,7 @@ if ($action == 'guardarVisita') {
     ($usuario != '') && $filtros[] = " v.idUser = '$usuario' ";
     ($fecha1 != '' && $fecha2 == '') ? $filtros[] = " v.fecha = '$fecha1' " : (($fecha1 != '' && $fecha2 != '') ? $filtros[] = " fecha BETWEEN '$fecha1' AND '$fecha2'" : ($fecha1 == '' && $fecha2 != '') && $filtros[] = " fecha < '$fecha2'");
 
-    $sql = "SELECT v.idVisita AS idVisita, p.nombre AS usuario, v.fecha,v.hora, v.tienda FROM visita v 
+    $sql = "SELECT v.idVisita AS idVisita, CONCAT(p.nombre,' ',p.apellido) AS usuario, v.fecha,v.hora, v.tienda FROM visita v 
 	INNER JOIN user u ON v.idUser = u.idUser 
 	INNER JOIN persona p ON p.idPersona = u.idPersona ";
 
